@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<link rel="icon" href="images/icon.png" type="image/icon">
+<meta http-equiv=“Pragma” content=”no-cache”>
+<meta http-equiv=“Expires” content=”-1″>
+<meta http-equiv=“CACHE-CONTROL” content=”NO-CACHE”>
+<!-- CSS Stylesheets -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="css/master.css">
+<link rel="stylesheet" href="css/nav.css">
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+<title>Vuong Tien Loc</title>
+</head>
+
+<body>
+
+  <a name="top-of-document"></a>
+
+<!-- floating scroll to top navigator -->
+
+  <div class="to-top-navigator">
+
+    <div class="to-top-cloud" aria-label="Ascend to the top!" aria-hidden="true">
+        <a href="javascript:scrollToAnchor('top-of-document')" data-toggle="tooltip" data-placement="left" title="Scroll to the top" onclick="javascript:toolTipReset()"><i class="fas fa-plane-departure"></i></a>
+    </div>
+
+    <div>
+        <a href="javascript:scrollToPreviousSection()">
+        <span class="tcon-indicator" aria-label="Scroll to previous section outside of viewport" aria-hidden="true" data-toggle="tooltip" data-placement="left" title="Scroll to previous section outside of viewport" onclick="javascript:toolTipReset()">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" class="tcon-svgchevron" viewBox="0 0 30 58">
+            <path class="a1" d="M3,13l13-10l13,10"></path>
+            <path class="a2" d="M3,33l13-10l13,10"></path>
+            <path class="a3" d="M3,53l13-10l13,10"></path>
+            </svg>
+        </span>
+        </a>
+    </div>
+
+  </div>
+
+  <!-- floating section indicators -->
+
+  <div class="section-indicators-block">
+
+    <div class="section-indicator">
+        <a id="bio-section-indicator" href="#" data-toggle="tooltip" data-placement="left" title="Jump to Bio" onclick="javascript:toolTipReset()"><i class="fas fa-circle"></i></a>
+    </div>
+
+    <div class="section-indicator">
+        <a id="portfolio-section-indicator" href="javascript:scrollToAnchor('portfolio');" data-toggle="tooltip" data-placement="left" title="Jump to Portfolio" onclick="javascript:toolTipReset()"><i class="far fa-circle"></i></a>
+    </div>
+
+    <div class="section-indicator">
+        <a id="skill-summary-section-indicator" href="javascript:scrollToAnchor('skill-summary');" data-toggle="tooltip" data-placement="left" title="Jump to Skill Summary" onclick="javascript:toolTipReset()"><i class="far fa-circle"></i></a>
+    </div>
+
+    <div class="section-indicator">
+        <a id="career-highlights-section-indicator" href="javascript:scrollToAnchor('career-highlights');" data-toggle="tooltip" data-placement="left" title="Jump to Career Hightlights" onclick="javascript:toolTipReset()"><i class="far fa-circle"></i></a>
+    </div>
+
+    <div class="section-indicator">
+        <a id="education-section-indicator" href="javascript:scrollToAnchor('education');" data-toggle="tooltip" data-placement="left" title="Jump to Education" onclick="javascript:toolTipReset()"><i class="far fa-circle"></i></a>
+    </div>
+
+    <div class="section-indicator">
+        <a id="contact-section-indicator" href="javascript:scrollToAnchor('contact');" data-toggle="tooltip" data-placement="left" title="Jump to Contact" onclick="javascript:toolTipReset()"><i class="far fa-circle"></i></a>
+    </div>
+
+  </div>
+
+  <!-- floating scroll down inviter -->
+
+  <div class="scroll-down-navigator">
+
+    <div>
+        <a href="javascript:scrollToNextSection()" data-toggle="tooltip" data-placement="left" title="Scroll to next section outside of viewport" onclick="javascript:toolTipReset()">
+        <span class="tcon-indicator" aria-label="Scroll to next section outside of viewport" aria-hidden="true">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" class="tcon-svgchevron" viewBox="0 0 30 58">
+            <path class="a3" d="M3,3l13,10l13-10"></path>
+            <path class="a2" d="M3,23l13,10l13-10"></path>
+            <path class="a1" d="M3,43l13,10l13-10"></path>
+            </svg>
+        </span>
+        </a>
+    </div>
+
+    <div class="scroll-down-plane" aria-label="Descend to the bottom!" aria-hidden="true">
+        <a href="javascript:scrollToAnchor('bottom-of-document')" data-toggle="tooltip" data-placement="left" title="Scroll to the bottom" onclick="javascript:toolTipReset()"><i class="fas fa-plane-arrival"></i></a>
+    </div>
+
+  </div>
+
+  <!-- end of navigation bar -->
+
+  <a name="bio"></a>
+  <div id="bio" class="container section-visual-boundry">
+
+      <div class="row justify-content-center">
+        
+        <div class="hero-div col-8 col-sm-4 col-md-4" >
+          <img class="hero" src="images/portrait.png" alt="portrait" />
+        </div>
+
+        <div class="col-12 col-sm-8 col-md-8">
+          <p class="page-title">Vuong Tien Loc</p>
+          <p class="page-subtitle">Quality Control, Quality Assurance</p>
+          <p class="bio-block"> I am a Quality Assurance professional working and living in Ho Chi Minh City. 
+            After graduating with a Bachelor's degree in Information Technology, I am currently involved in several exciting projects.
+            My main responsibility is to ensure that products meet the highest quality standards before they are released to the market. 
+            This is my portfolio showcasing some of my projects. I hope you enjoy them!</p>
+         
+        </div>
+      </div>
+
+  </div>
+
+  <hr />
+
+<a name="portfolio"></a>
+<p id="portfolio" class="section-heading section-visual-boundry">Portfolio</p>
+
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+    <div class="col bm-2">
+      <div class="card h-100">
+        <img src="images/ZH2.png" class="card-img-top" alt="Zombie Hunter 2">
+        <div class="card-body">
+          <h5 class="card-title">Zombie Hunter 2</h5>
+          <p class="card-text">3D Shooting Game developed by Unity</p>
+          <a href="https://play.google.com/store/apps/details?id=com.zombie.gun.shooter" target="_blank" class="btn btn-primary">GOOGLE PLAY</a>
+        </div>
+      </div>
+    </div>
+    <div class="col bm-2">
+      <div class="card h-100">
+        <img src="images/MAM.png" class="card-img-top" alt="My Animal Mart">
+        <div class="card-body">
+          <h5 class="card-title">My Animal Mart</h5>
+          <p class="card-text">Idle Game Simulator developed by Unity</p>
+          <a href="https://play.google.com/store/apps/details?id=com.idle.minimart.animal.tycoon&hl=en_US" target="_blank" class="btn btn-primary">GOOGLE PLAY</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col bm-2">
+      <div class="card h-100">
+        <img src="images/DT.png" class="card-img-top" alt="Dead Target">
+        <div class="card-body">
+          <h5 class="card-title">Dead Target</h5>
+          <p class="card-text">Shooting Game developed by Unity</p>
+          <a href="https://play.google.com/store/apps/details?id=com.vng.g6.a.zombie&hl=en_US" target="_blank" class="btn btn-primary">GOOGLE PLAY</a>
+        </div>
+      </div>
+    </div>
+</div>
+
+<hr />
+
+<a name="skill-summary"></a>
+<p id="skill-summary" class="section-heading section-visual-boundry">Skill Summary</p>
+
+<p data-toggle="tooltip" data-placement="bottom" 
+   title="These tags tell you what technologies I use"
+   onclick="javascript:toolTipReset()">
+    <span class="keyword-magnet">Jira</span>
+    <span class="keyword-magnet">App Center</span>
+    <span class="keyword-magnet">Zealot</span>
+    <span class="keyword-magnet">Android Studio</span>
+    <span class="keyword-magnet">Selenium</span>
+    <span class="keyword-magnet">Postman</span>
+    <span class="keyword-magnet">DevOps</span>
+</p>
+
+<ul>
+    <li>Manual Testing</li>
+    <li>Automated Testing</li>
+    <li>Defect Management</li>
+    <li>Test Planning and Strategy</li>
+    <li>Performance Testing (JMeter)</li>
+    <li>Continuous Integration/Continuous Deployment Gitlab (CI/CD)</li>
+</ul>
+
+<hr />
+
+<a name="career-highlights"></a>
+<p id="career-highlights" class="section-heading section-visual-boundry">Career Highlights</p>
+<p class="section-subheading">Ho Chi Minh City</p>
+<p class="section-small-heading">Quality Control, Quality Assurance</p>
+<ul>
+    <li>Enhanced Game Stability</li> 
+    <li>Comprehensive Test Coverage</li>
+    <li>Performance Optimization</li>
+    <li>Bug Tracking and Resolution</li>
+    <li>Enhanced User Experience</li>
+    <li>Effective Communication and Collaboration</li>
+</ul>
+
+<hr />
+
+<a name="education"></a>
+<p id="education" class="section-heading section-visual-boundry">Education</p>
+<p class="section-subheading">Open University, Ho Chi Minh City</p>
+<p class="section-small-heading">Bachelor of Information Technology</p>
+<p><a href="https://ou.edu.vn/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Tap here to visit my Uni Website" onclick="javascript:toolTipReset()"">Visit University</a></p>
+
+<hr />
+
+<a name="contact"></a>
+<p id="contact" class="section-heading section-visual-boundry">Contact</p>
+
+<p>Email: <a href="mailto:vuongtienloc001@gmail.com" data-toggle="tooltip" data-placement="bottom" title="Tap here to email me" onclick="javascript:toolTipReset()">vuongtienloc001@gmail.com</a></p>
+<p>LinkedIn: <a href="https://www.linkedin.com/in/vuongtienloc1604/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Tap here to visit my LinkedIn page" onclick="javascript:toolTipReset()"">Vuong Tien Loc</a></p>
+  
+<hr />
+
+<!-- <img class="hero" src="images/footer_banner.jpg" alt="banner" /> -->
+
+<a name="bottom-of-document"></a>
+</body>
+
+<footer>
+    <p class="copyright-text">© Copyright 2024 Vuong Tien Loc</p>
+</footer>
+
+<!-- JQuery Scripts -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<!-- Bootstrap Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script></head>
+<!-- Our codes -->
+<script src="js/main.js"></script>
+<script src="js/nav.js"></script>
